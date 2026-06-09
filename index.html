@@ -320,6 +320,24 @@
     color: var(--pink);
   }
 
+  /* ---- VIDEO ---- */
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--border);
+  }
+
   /* ---- SHOWS ---- */
   .show-row {
     display: grid;
@@ -524,6 +542,7 @@
   <ul class="nav-links">
     <li><a href="#bio">Bio</a></li>
     <li><a href="#music">Music</a></li>
+    <li><a href="#video">Video</a></li>
     <li><a href="#shows">Shows</a></li>
     <li><a href="#photos">Photos</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -570,7 +589,7 @@
   <h2>Discography</h2>
 
   <div class="music-card">
-  <img class="music-artwork"
+    <img class="music-artwork"
       src="single-bittersweet-bitch.webp"
       alt="Bittersweet Bitch single art">
     <div class="music-info">
@@ -613,6 +632,21 @@
 
 </section>
 
+<hr class="divider">
+
+<!-- VIDEO -->
+<section id="video">
+  <div class="section-label">Watch</div>
+  <h2>Live Performance</h2>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/Ft9LtQNlWh4"
+      title="Bailey Katsu — Live Performance"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
 </section>
 
 <hr class="divider">
@@ -636,7 +670,7 @@
     <div class="show-date">JUL 17<span>2026</span></div>
     <div class="show-info">
       <h3>Bailey Katsu — Debut Full Set</h3>
-      <p>The Middle East &nbsp;·&nbsp; Cambridge, MA &nbsp;·&nbsp; Doors 8 PM &nbsp;·&nbsp; w/ Olivia Dolphin Band &amp; Zola Simone</p>
+      <p>The Middle East &nbsp;·&nbsp; Cambridge, MA &nbsp;·&nbsp; Doors 8 PM &nbsp;·&nbsp; w/ Olivia Dolphin Band</p>
       <a href="https://mideastclub.com/tm-event/bailey-katsu-olivia-dolphin-band-zola-simone/" target="_blank" class="stream-link" style="margin-top: 12px; display: inline-block;">Buy Tickets</a>
     </div>
     <div class="show-tag headline">Headline</div>
@@ -661,7 +695,7 @@
       src="photo-bio.jpg"
       alt="Bailey Katsu press photo 3">
   </div>
-  <p class="photo-credit">All photos by <a href="https://www.cophotos.net" target="_blank">Conor "Spiff" — cophotos.net &nbsp;·&nbsp; @spiffsphotos</a>. For hi-res downloads, contact <a href="mailto:baileykat19@gmail.com">baileykat19@gmail.com</a>.</p>
+  <p class="photo-credit">All photos by <a href="https://www.cophotos.net" target="_blank">Conor "Spiff" — cophotos.net &nbsp;·&nbsp; @spiffsphotos</a>. For hi-res downloads, contact <a href="mailto:baileykatsumusic@ritsu.com">baileykatsumusic@ritsu.com</a>.</p>
 </section>
 
 <hr class="divider">
@@ -672,9 +706,13 @@
   <h2>Get In Touch</h2>
   <div class="contact-grid">
     <div class="contact-block">
-      <h3>Press &amp; Booking</h3>
-      <a href="mailto:baileykat19@gmail.com">baileykat19@gmail.com</a>
+      <h3>Press</h3>
+      <a href="mailto:baileykatsumusic@ritsu.com">baileykatsumusic@ritsu.com</a>
       <a href="https://baileykatsumusic.com" target="_blank">baileykatsumusic.com</a>
+    </div>
+    <div class="contact-block">
+      <h3>Booking</h3>
+      <a href="mailto:baileykat19@gmail.com">baileykat19@gmail.com</a>
     </div>
     <div class="contact-block">
       <h3>Socials</h3>
